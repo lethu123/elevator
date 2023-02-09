@@ -8,9 +8,11 @@ Require node version 16.8.0 or laster
 
 First, run command to install package
 
-````bash
+```bash
 npm install
-Continue, run the development server:
+```
+
+Next, run the development server:
 
 ```bash
 npm run dev
@@ -18,7 +20,7 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-````
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
