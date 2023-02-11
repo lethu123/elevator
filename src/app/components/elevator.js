@@ -84,8 +84,8 @@ const Elevator = () => {
             data-lightbox="gallery-item"
           >
             <img
-              className="rounded h-100"
-              src="assets/images/elevator1.jpg"
+              className="rounded h-100 w-100"
+              src="assets/images/elevator1.png"
               alt="Alt Images"
             />
           </a>
@@ -97,8 +97,8 @@ const Elevator = () => {
             data-lightbox="gallery-item"
           >
             <img
-              className="rounded h-100"
-              src="assets/images/elevator2.jpg"
+              className="rounded h-100 w-100"
+              src="assets/images/elevator2.png"
               alt="Alt Images"
             />
           </a>
@@ -127,7 +127,7 @@ const Elevator = () => {
                       ============================================= */}
       <div id="comments">
         <h3 id="comments-title">
-          <span>3</span> Comments
+          <span>3</span> Bình luận
         </h3>
         {/* Comments List
                           ============================================= */}
@@ -260,11 +260,11 @@ const Elevator = () => {
                           ============================================= */}
         <div id="respond">
           <h3>
-            Leave a <span>Comment</span>
+            Để lại <span>bình luận</span>
           </h3>
           <form className="row mb-0" action="#" method="post" id="commentform">
             <div className="form-group col-4">
-              <label htmlFor="author">Name</label>
+              <label htmlFor="author">Họ tên</label>
               <input
                 type="text"
                 name="author"
@@ -301,7 +301,7 @@ const Elevator = () => {
             </div>
             <div className="w-100" />
             <div className="form-group col-12">
-              <label htmlFor="comment">Comment</label>
+              <label htmlFor="comment">Nội dung bình luận</label>
               <textarea
                 name="comment"
                 id="comment"
@@ -321,7 +321,7 @@ const Elevator = () => {
                 value="Submit"
                 className="button button-large button-black button-dark nott fw-medium ls0 button-rounded m-0"
               >
-                Submit Comment
+                Gửi bình luận
               </button>
             </div>
           </form>
