@@ -62,7 +62,8 @@ export default function Home() {
                     data-dark-logo="assets/images/logo-dark.png"
                     data-mobile-logo="assets/images/mobile-logo.png"
                   >
-                    <img src="assets/images/logo.png" alt="Canvas Logo" />
+                    {/* <img src="assets/images/logo.png" alt="Canvas Logo" /> */}
+                    <div style={{ fontSize: "3.5rem" }}>Thiên Tân</div>
                   </a>
                   <a
                     href="#"
@@ -138,7 +139,7 @@ export default function Home() {
 							</div> */}
                 </div>
 
-                <div
+                {/* <div
                   onClick={() => {
                     setOpenMenu(!openMenu);
                   }}
@@ -151,7 +152,7 @@ export default function Home() {
                       <path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path>
                     </svg>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="container custom-menu">
@@ -213,10 +214,7 @@ export default function Home() {
                         <div className="entry-categories">
                           <a href="#">Coronavirus Update - World</a>
                         </div>
-                        <h2>
-                          All online Conferences to save your box, get Inspired
-                          and Stay Connected
-                        </h2>
+                        <h2>Dịch vụ sửa chữa thang máy</h2>
                       </div>
                       {/* .entry-title end */}
                     </div>
@@ -256,7 +254,7 @@ export default function Home() {
                       >
                         <div className="d-flex flex-column">
                           <div>
-                            <div className="mb-2 custem-menu-2">
+                            {/* <div className="mb-2 custem-menu-2">
                               <h4 className="mb-2 fw-bolder">Danh mục:</h4>
 
                               <div className="nav flex-column nav-pills mb-1">
@@ -275,7 +273,7 @@ export default function Home() {
                                   Lắp đặt camera
                                 </a>
                               </div>
-                            </div>
+                            </div> */}
                             {/* Post Single - Share
 										============================================= */}
                             <div>
@@ -323,7 +321,7 @@ export default function Home() {
                               className="button button-blue rounded"
                             >
                               <i class="icon-phone"></i>{" "}
-                              <span>HOTLINE: 028 22 333 599</span>
+                              <span>HOTLINE: 0909876836</span>
                             </a>
                           </div>
                         </div>
@@ -340,7 +338,7 @@ export default function Home() {
                   </div>
                 </div>
                 {/* .entry end */}
-                <h3 className="mb-0">Bài viết liên quan</h3>
+                {/* <h3 className="mb-0">Bài viết liên quan</h3>
                 <div className="row posts-md">
                   <div className="col-lg-3 col-sm-6">
                     <article className="entry">
@@ -471,7 +469,7 @@ export default function Home() {
                       </div>
                     </article>
                   </div>
-                </div>
+                </div> */}
               </div>
               {/* Single Page Content */}
             </div>
@@ -487,7 +485,7 @@ export default function Home() {
             <div className="footer-widgets-wrap row col-mb-50">
               {/* Footer Widget 3
 					============================================= */}
-              <div className="col-lg-3 col-sm-6">
+              <div className="col-lg-4 col-sm-6">
                 <div className="widget widget_links">
                   <h4 className="mb-3 mb-sm-4 nott ls0">Địa chỉ</h4>
                   <p>
@@ -496,7 +494,7 @@ export default function Home() {
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.518636114121!2d106.77325785041361!3d10.848101860794909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175270c49f79e7d%3A0x90c3f5c4965201d7!2zNDUgxJAuIEzDqiBWxINuIFZp4buHdCwgSGnhu4dwIFBow7osIFF14bqtbiA5LCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1675957813912!5m2!1sen!2s"
                     width="600"
-                    height="450"
+                    height="400"
                     style={{ border: 0 }}
                     allowfullscreen=""
                     loading="lazy"
@@ -506,7 +504,7 @@ export default function Home() {
               </div>
               {/* Footer Widget 3
 					============================================= */}
-              <div className="col-lg-3 col-sm-6">
+              {/* <div className="col-lg-3 col-sm-6">
                 <div className="widget widget_links">
                   <h4 className="mb-3 mb-sm-4 nott ls0">
                     Dịch vụ của chúng tôi
@@ -520,18 +518,18 @@ export default function Home() {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
               {/* Footer Widget 3
 					============================================= */}
-              <div className="col-lg-3 col-sm-6">
+              <div className="col-lg-4 col-sm-6">
                 <div className="widget widget_links">
-                  <h4 className="mb-3 mb-sm-4 nott ls0">Hỗ trọ</h4>
+                  <h4 className="mb-3 mb-sm-4 nott ls0">Hỗ trợ</h4>
                   <ul>
                     <li>
-                      <a href="#">Email: lethu210398@gmail.com</a>
+                      <a>Email: lethu210398@gmail.com</a>
                     </li>
                     <li>
-                      <a href="#">Hotline: 19008198</a>
+                      <a>Hotline: 0909876836</a>
                     </li>
                   </ul>
                   <div className="mt-3">
@@ -575,7 +573,7 @@ export default function Home() {
               </div>
               {/* Footer Widget 2
 						============================================= */}
-              <div className="col-lg-3 col-sm-6">
+              <div className="col-lg-4 col-sm-6">
                 <div className="widget widget_links">
                   <h4 className="mb-3 mb-sm-4 nott ls0">Tag Cloud</h4>
                   <div className="tagcloud">

@@ -6,78 +6,78 @@ const Elevator = () => {
       //   role="tabpanel"
       //   aria-labelledby="v-pills-home-tab"
     >
-      <h1> Thang máy</h1>
+      <h1>
+        {" "}
+        Dịch vụ sữa chữa thang máy tại Bình Dương, Bình Phước, Tây Ninh, Củ Chi
+        TP HCM.
+      </h1>
       <p>
-        Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
-        lacinia odio sem nec elit. Cras mattis consectetur purus sit amet
-        fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-        Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+        Trung tâm Thiên Tân bảo trì,sửa chữa chuyên cung cấp dịch vụ Sửa Chữa
+        Thang máy Tại Nhà giá rẻ, uy tín. Là địa chỉ quen thuộc của mọi gia đình
+        Cam kết tuyệt đối không lừa gạt, không móc túi mất uy tín. Bảo hành dịch
+        vụ sửa Thang máy tối đa lên tới 2 năm.
       </p>
+      <h4>Liên hệ ngay với tôi! 0909876836</h4>
       <br />
-      <h3>1. Content</h3>
-      In this cheat sheet, we will go over the following:
-      <ol className="list-numbers">
-        <li>Anatomy</li>
-        <li>Dropdown types and variations</li>
-        <li>Dropdown styles</li>
-        <li>Dropdown states</li>
-        <li>What the placeholder should say</li>
-        <li>When not to use a dropdown (and when to)</li>
-        <li>Native dropdowns</li>
-        <li>Accessibility checklist</li>
-        <li>Closing thoughts</li>
-      </ol>
-      <p>
-        Nullam id dolor id nibh ultricies vehicula ut id elit.{" "}
-        <a href="#">Curabitur blandit tempus porttitor</a>. Integer posuere erat
-        a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus
-        ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis
-        euismod semper. Donec id elit non mi porta gravida at eget metus.
-        Vestibulum id ligula porta felis euismod semper.
-      </p>
-      <blockquote>
-        <p>
-          Vestibulum id ligula porta felis euismod semper. Sed posuere
-          consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare
-          sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo
-          luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-          Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-          ligula porta felis euismod semper.
-        </p>
-      </blockquote>
-      <br />
-      <h3>2. Anatomy</h3>
-      <p>
-        Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-        Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi
-        porta gravida at eget metus.
-      </p>
-      <p>
-        Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean
-        lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac
-        facilisis in, egestas eget quam.{" "}
-        <a href="#">Nullam quis risus eget urna</a>
-        mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus
-        posuere velit aliquet.
-      </p>
-      <p>
-        Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
-        lacinia odio sem nec elit. Cras mattis consectetur purus sit amet
-        fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-        Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-      </p>
-      <br />
-      <h3>3. Standard Solution</h3>
-      <p>
-        Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit
-        tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere
-        velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget
-        quam. Vestibulum id ligula porta felis euismod semper. Donec id elit non
-        mi porta gravida at eget metus. Vestibulum id ligula porta felis euismod
-        semper.
-      </p>
       <div className="row mb-4" data-lightbox="gallery">
-        <div className="col-md-6">
+        <div className="col-md-6 pb-2">
+          <a
+            className="h-100 "
+            href="images/elevator1.jpg"
+            data-lightbox="gallery-item"
+          >
+            <img
+              className="rounded h-100 w-100"
+              src="assets/images/elevator5.png"
+              alt="Alt Images"
+            />
+          </a>
+        </div>
+        <div className="col-md-6 pb-2">
+          <a
+            className="h-100"
+            href="images/elevator2.jpg"
+            data-lightbox="gallery-item"
+          >
+            <img
+              className="rounded h-100 w-100"
+              src="assets/images/elevator6.png"
+              alt="Alt Images"
+            />
+          </a>
+        </div>
+      </div>
+      <h3 className="text-danger">
+        Hoàn phí 100% Nếu Quý khách hàng không hài lòng về dịch vụ sửa chữa của
+        Thiên Tân
+      </h3>
+      <p>
+        Đối với những bạn trong khu vực Bình Dương có thể gọi cho{" "}
+        <b>Trung Tâm Sửa Chữa Thang máy Thiên Tân</b> để được{" "}
+        <b>chúng tôi tư vấn miễn phí, khắc phục tại nhà</b> những sự cố nhanh
+        chóng và tiết kiệm nhất.
+      </p>
+      <ol className="list-numbers">
+        <li>Chúng tôi có mặt sau 20p – 25p để sửa chữa</li>
+        <li>Báo giá và ra phương án có lợi nhất cho bạn.</li>
+        <li>Đội ngũ nhân viên giàu kinh nghiệm.</li>
+        <li>Bảo hành dài hạn sau khi nhận sửa Thang máy</li>
+        <li>Kiểm tra đúng bệnh, báo đúng giá</li>
+        <li>Đưa ra phương án sửa tối ưu nhất</li>
+        <li>Thay thế linh kiện chính hãng 100% (nếu có)</li>
+        <li>Bảo hành dài hạn theo từng linh kiện (6 – 1 năm)</li>
+        <li>Làm việc 24/24 kể cả thứ 7 và chủ nhật</li>
+        <li>
+          Gọi là đến 24/24 :{" "}
+          <a className="text-blue color-underline stretched-link">0909876836</a>
+        </li>
+      </ol>
+      <h3>
+        Thiên Tân có nhận lắp đặt Camera trong thang máy,nhà dân, nhà xưởng
+      </h3>
+
+      <div className="row mb-4" data-lightbox="gallery">
+        <div className="col-md-6 py-2">
           <a
             className="h-100"
             href="images/elevator1.jpg"
@@ -90,7 +90,7 @@ const Elevator = () => {
             />
           </a>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6 py-2">
           <a
             className="h-100"
             href="images/elevator2.jpg"
@@ -105,18 +105,10 @@ const Elevator = () => {
         </div>
       </div>
       <p>
-        Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-        Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi
-        porta gravida at eget metus.
+        Chúng tôi có dịch vụ lắp đặt camera thang máy tại nhà, an toàn, tiện
+        nghi
       </p>
-      <p>
-        Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean
-        lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac
-        facilisis in, egestas eget quam.{" "}
-        <a href="#">Nullam quis risus eget urna</a>
-        mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus
-        posuere velit aliquet.
-      </p>
+
       <div className="line" />
       {/* Tag Cloud
                       ============================================= */}
