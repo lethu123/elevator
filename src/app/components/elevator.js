@@ -8,11 +8,10 @@ const Elevator = () => {
     >
       <h1>
         {" "}
-        Dịch vụ sữa chữa thang máy tại Bình Dương, Bình Phước, Tây Ninh, Củ Chi
-        TP HCM.
+        Dịch vụ sửa chữa thang máy tại Bình Dương, Bình Phước, Tây Ninh, Củ Chi TP HCM.
       </h1>
       <p>
-        Trung tâm Thiên Tân bảo trì,sửa chữa chuyên cung cấp dịch vụ Sửa Chữa
+        Trung tâm Thiên Tân bảo trì, sửa chữa chuyên cung cấp dịch vụ Sửa Chữa
         Thang máy Tại Nhà giá rẻ, uy tín. Là địa chỉ quen thuộc của mọi gia đình
         Cam kết tuyệt đối không lừa gạt, không móc túi mất uy tín. Bảo hành dịch
         vụ sửa Thang máy tối đa lên tới 2 năm.
@@ -73,7 +72,7 @@ const Elevator = () => {
         </li>
       </ol>
       <h3>
-        Thiên Tân có nhận lắp đặt Camera trong thang máy,nhà dân, nhà xưởng
+        Thiên Tân có nhận lắp đặt Camera trong thang máy, nhà dân, nhà xưởng.
       </h3>
 
       <div className="row mb-4" data-lightbox="gallery">
@@ -105,8 +104,7 @@ const Elevator = () => {
         </div>
       </div>
       <p>
-        Chúng tôi có dịch vụ lắp đặt camera thang máy tại nhà, an toàn, tiện
-        nghi
+        Chúng tôi có dịch vụ lắp đặt camera thang máy tại nhà, an toàn, tiện nghi.
       </p>
 
       <div className="line" />
